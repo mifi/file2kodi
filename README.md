@@ -1,5 +1,5 @@
 # file2kodi
-Send a local file on Kodi/XBMC.
+Play a local file on Kodi/XBMC. Send video/music etc
 The script works by setting up a web server sharing the specified file, then sending a command to Kodi to play the file on this server.
 
 # Installation
