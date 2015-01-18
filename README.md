@@ -7,6 +7,7 @@ The script works by setting up a web server sharing the specified file, then sen
 * Checkout
 * npm install
 * Edit config.js and add Kodi machine IP, and local IP & listen port
+* Remote control must be enabled in Kodi
 
 # Usage
 ```
