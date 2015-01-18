@@ -1,0 +1,11 @@
+{
+  "name": "file2kodi",
+  "description": "Play local file on Kodi/XBMC",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jayson": "*",
+    "minimist": "*",
+    "express": "*",
+    "morgan": "*"
+  }
+}
