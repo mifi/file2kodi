@@ -1,2 +1,19 @@
 # file2kodi
-Plays a local file on Kodi/XBMC
+Send a local file on Kodi/XBMC.
+The script works by setting up a web server sharing the specified file, then sending a command to Kodi to play the file on this server.
+
+# Installation
+* Checkout
+* npm install
+* Edit config.js and add Kodi machine IP, and local IP & listen port
+
+# Usage
+```
+node /path/to/file2kodi.js media.mp4
+```
+
+# Optional
+in bashrc, append:
+```
+alias file2kodi="node $HOME/path/to/file2kodi.js"
+```
